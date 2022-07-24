@@ -1,0 +1,82 @@
+
+    * {
+      margin: 0;
+      /* border: 1px solid black; */
+      padding: 0;
+      font-family: "Montserrat", sans-serif;
+    }
+    body {
+      background-color: #2f364b;
+      color: #ffffff;
+    }
+    a {
+      text-decoration: none;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .navigation {
+      margin: 0 auto;
+      padding-top: 1rem;
+      width: 90%;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .navigation > * {
+      padding: 1rem;
+    }
+    .navigation a {
+      background-color: #ffffff;
+      color: #2f364b;
+      padding: 1rem;
+      border-radius: 15px;
+      text-align: center;
+      width: 200px;
+    }
+    .anathorherosection {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .anathorherosection {
+      margin-top: 4rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 1rem;
+    }
+    .anathorherosection p {
+      display: flex;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 1rem;
+      justify-content: center;
+      align-items: baseline;
+      align-self: baseline;
+    }
+    .anathorherosection form p span {
+      padding: 0 1rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    form input {
+      margin-top: 1rem;
+    }
+    form input[type="submit"] {
+      width: 50%;
+      padding: 1rem 0.5rem;
+      margin-top: 2rem;
+    }
+    form input[type="text"]:first-of-type {
+      width: 720px;
+      margin: 0 auto;
+      padding: 1rem 0.5rem;
+      margin-top: 1.5rem;
+    }

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  /* border: 1px solid black; */
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #2f364b;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+.navigation {
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.navigation > * {
+  padding: 1rem;
+}
+.navigation a {
+  background-color: #ffffff;
+  color: #2f364b;
+  padding: 1rem;
+  border-radius: 15px;
+  text-align: center;
+  width: 200px;
+}
+.herosection {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+
+  align-items: center;
+  padding: 1.5rem 0rem;
+}
+.herosection .leftsection {
+  padding: 1rem 0;
+}
+.herosection .leftsection .bouttonsseach {
+  padding-top: 3rem;
+}
+.herosection .leftsection .bouttonsseach {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+.herosection .leftsection .bouttonsseach button {
+  background-color: #00bac7;
+  color: #ffffff;
+  border-radius: 15px;
+  border: none;
+  width: 200px;
+}
+.herosection .leftsection .technologeisused {
+  margin-top: 2rem;
+}
+.herosection .rightsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.herosection .rightsection img {
+  width: 400px;
+  margin: 0 auto;
+}
+i {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 2rem;
+}
+
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+.foote_bottom_ul_amrc li a {
+  color: #999;
+  margin: 0 12px;
+}

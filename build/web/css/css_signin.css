@@ -1,0 +1,62 @@
+
+  * {
+    margin: 0;
+    /* border: 1px solid black; */
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background-color: #2f364b;
+    color: #ffffff;
+  }
+  .navigation {
+    margin: 0 auto;
+    padding-top: 1rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .navigation > * {
+    padding: 1rem;
+  }
+  .navigation a {
+    background-color: #ffffff;
+    color: #2f364b;
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .oursigninform {
+    border: 1px solid white;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 3rem 1rem;
+  }
+  .oursigninform form {
+    display: flex;
+    flex-direction: column;
+  }
+  .oursigninform form label {
+    margin: 0.5rem 0;
+  }
+  .oursigninform form input {
+    padding: 0.5rem 0.5rem;
+    margin-top: 1rem;
+  }
+  .oursigninform form .oursubmit {
+    padding: 0.5rem 0.5rem;
+
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 12px;
+    border: none;
+  }
