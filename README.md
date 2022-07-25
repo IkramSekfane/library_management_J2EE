@@ -4,7 +4,16 @@ The objective of this report is to implement in J2ee a web application of the ma
 by different criteria (domain, title, author) and to offer the administrator the possibility to enrich the library. And for this using JSTL web pages.
 
 ## Installation
-Application Web with JSTL.  
+
+    JSP   
+    IDE - Apache NetBeans IDE 12  
+    JDK   
+    GlassFish Server  
+    JSTL   
+    MySQL - mysql-connector-java-5.1.49.jar  
+    Xxamp  
+    HTML/CSS  
+
    
 ## Support
 you can find me on email address : i.sekfane.fs@univ-boumerdes.dz  
